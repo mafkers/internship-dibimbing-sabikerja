@@ -9,7 +9,7 @@
 - JavaScript (Vanilla)
 
 ```
-📁 sabiKerja-internship
+📁 sabikerja
 ├── 📁 apply         # Pages for applying job, registering, and payment
 │   ├── apply.html
 │   ├── register.html
@@ -30,4 +30,3 @@
 ├── 📄 about.html    # About us page
 ├── 📄 contact.html  # Contact us page
 ├── 📄 login.html    # Login page (for candidates & employers)
-
