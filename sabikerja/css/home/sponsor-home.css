@@ -1,0 +1,65 @@
+.sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.sponsor-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    gap: 40px;
+}
+
+.sponsor-image {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.sponsor-text {
+    width: 50%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.sponsor-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sponsor-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.sponsor-list {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+.sponsor-list li {
+    margin-bottom: 10px;
+}
+
+.sponsor-button-container {
+display: flex;
+justify-content: center;
+}
+
+.sponsor-button {
+    background-color: #c00;
+    color: white;
+    padding: 17px 35px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.sponsor-button:hover {
+    background-color: #900;
+}

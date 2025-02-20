@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Jobs</title>
+
+    <link rel="icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="css/universal/style.css">
+    <link rel="stylesheet" href="css/universal/navbar.css">
+    <link rel="stylesheet" href="css/universal/footer.css">
+    <link rel="stylesheet" href="css/jobs/job.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="assets/sabikerja.png" alt="SabiKerja Logo">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/jobs.html">Find Jobs</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="nav-buttons">
+                <a href="/login.html" class="btn btn-secondary">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="jobs-header">
+        <div class="container">
+            <h1>Find Your Dream Job</h1>
+            <div class="search-filters">
+                <input type="text" id="search-title" placeholder="Job title or keyword" class="search-input">
+                
+                <select id="search-department" class="search-input">
+                    <option value="">All Departments</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Design">Design</option>
+                    <option value="Security">Security</option>
+                </select>
+
+                <input type="text" id="search-location" placeholder="Location" class="search-input">
+                <button class="btn btn-primary" onclick="filterJobs()">Search Jobs</button>
+            </div>
+        </div>
+    </section>
+    
+
+        <section class="jobs-list">
+            <div class="container">
+                <div class="jobs-grid">
+                    <div class="jobs-grid">
+                        <div class="job-card">
+                            <h3>Frontend Developer</h3>
+                            <div class="company">Web Innovators</div>
+                            <div class="location">Surabaya, Indonesia</div>
+                            <p class="description">Looking for a passionate frontend developer to create stunning UI/UX...</p>
+                            <a href="/apply/apply.html" class="btn btn-primary">Apply Now</a>
+                        </div>
+                        <div class="job-card">
+                            <h3>Data Scientist</h3>
+                            <div class="company">AI Solutions</div>
+                            <div class="location">Bandung, Indonesia</div>
+                            <p class="description">We need a data scientist to analyze complex datasets and build models...</p>
+                            <a href="/apply/apply.html" class="btn btn-primary">Apply Now</a>
+                        </div>
+                        <div class="job-card">
+                            <h3>Product Manager</h3>
+                            <div class="company">E-Commerce Ltd</div>
+                            <div class="location">Jakarta, Indonesia</div>
+                            <p class="description">Join our team to lead product development and strategy...</p>
+                            <a href="/apply/apply.html" class="btn btn-primary">Apply Now</a>
+                        </div>
+                        <div class="job-card">
+                            <h3>UI/UX Designer</h3>
+                            <div class="company">Creative Studios</div>
+                            <div class="location">Bali, Indonesia</div>
+                            <p class="description">We need a creative designer to enhance our digital experiences...</p>
+                            <a href="/apply/apply.html" class="btn btn-primary">Apply Now</a>
+                        </div>
+                        <div class="job-card">
+                            <h3>DevOps Engineer</h3>
+                            <div class="company">CloudTech</div>
+                            <div class="location">Yogyakarta, Indonesia</div>
+                            <p class="description">Seeking a DevOps expert to optimize our cloud infrastructure...</p>
+                            <a href="/apply/apply.html" class="btn btn-primary">Apply Now</a>
+                        </div>
+                        <div class="job-card">
+                            <h3>Cyber Security Analyst</h3>
+                            <div class="company">SecureNet</div>
+                            <div class="location">Jakarta, Indonesia</div>
+                            <p class="description">Protect our systems and data from cyber threats...</p>
+                            <a href="/apply/apply.html" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pagination">
+            <a href="#" class="page-btn">&laquo;</a>
+            <a href="#" class="page-btn">&lt;</a>
+            <a href="#" class="page-btn active">1</a>
+            <a href="#" class="page-btn">2</a>
+            <a href="#" class="page-btn">3</a>
+            <a href="#" class="page-btn">&gt;</a>
+            <a href="#" class="page-btn">&raquo;</a>
+        </section>        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="assets/sabikerja.png" alt="SabiKerja">
+                    </div>
+                    <div class="call-us">
+                        <h3>Call us</h3>
+                        <p>+62 21 509-969-69 Ext 1307</p>
+                        <p>+62 8517 9898 921</p>
+                    </div>
+                    <address>
+                        Gedung Wirausaha Lantai 1 Unit 104<br>
+                        Jalan Haji R. Rasuna Said Kavling C5,<br>
+                        RT.3/RW.1, Karet, Kecamatan Setiabudi, Daerah<br>
+                        Khusus Ibukota Jakarta 12920
+                    </address>
+                    <p class="email">hello@sabikerja.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>For Candidates</h3>
+                    <ul>
+                        <li><a href="/jobs.html">Browse Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="/contact.html">Contact Us</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Visit Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/sabikerja/" class="social-link linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/sabikerja/" class="social-link instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/6285179898921" class="social-link whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://web.facebook.com/p/SabiKerja-100077487516844/" class="social-link facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

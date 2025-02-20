@@ -1,0 +1,14 @@
+/* hero-section */
+.hero-section {
+    padding: 100px 20px 40px; /* Tambah padding atas */
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #222;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

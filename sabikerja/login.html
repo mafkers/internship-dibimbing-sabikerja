@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="icon" href="/assets/favicon.png">
+    
+    <link rel="stylesheet" href="css/universal/style.css">
+    <link rel="stylesheet" href="css/universal/navbar.css">
+    <link rel="stylesheet" href="css/universal/footer.css">
+    <link rel="stylesheet" href="css/login/login.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="assets/sabikerja.png" alt="SabiKerja Logo">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/jobs.html">Find Jobs</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="nav-buttons">
+                <a href="/login.html" class="btn btn-secondary">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="login-container">
+            <div class="login-box">
+                <h2>Welcome Back</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <input type="text" id="username" required placeholder="Email or Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="password" required placeholder="Password">
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <div class="login-buttons">
+                        <button type="button" class="btn-employer">Login as Employer</button>
+                        <button type="button" class="btn-candidate">Login as Candidate</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

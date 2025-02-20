@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicants</title>
+
+    <link rel="icon" href="/assets/favicon.png">
+
+    <link rel="stylesheet" href="/css/employers/employers.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <header>
+            <img src="/assets/sabikerja.png" alt="SabiKerja Logo" class="logo">
+            <a href="/index.html" class="signout-button">Sign Out</a>
+        </header>      
+    </header>
+    
+    <main>
+        <div class="job-header">
+            <a href="/employers/list.html" class="back-button">← Back to Jobs</a>
+        </div>
+        
+        <div class="applicants-table">
+            <table id="applicantsTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>CV</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="applicantsList">
+                    <!-- applicants.js for data -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="/js/applicants.js"></script>
+</body>
+</html>
