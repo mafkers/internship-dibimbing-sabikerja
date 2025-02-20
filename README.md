@@ -8,6 +8,7 @@
 - CSS
 - JavaScript (Vanilla)
 
+```
 📁 sabiKerja-internship
 ├── 📁 apply         # Pages for applying job, registering, and payment
 │   ├── apply.html
